@@ -1,0 +1,111 @@
+
+*{margin:0; padding:0;}
+body{
+    background-color: black ;
+}
+#probabilidad{
+    color: white;
+    top: 90%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    font-size: 70%;
+}
+#board{
+    top: 50%;
+    margin-top: -45vw;
+    left: 50%;
+    margin-left: -45vw;
+    background-color: 	rgb(22, 22, 22);
+    position: absolute;
+    width: 90vw;
+    height: 90vw;
+    border: 0.1vw solid white;
+}
+#button{
+    display: block;
+    left: 50%;
+    transform: translate(-50%);
+    width: 15%; 
+    top: -15%;
+    position: absolute;
+}
+#HvsH{
+    width: 130%;
+    top:-50%; 
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+}
+#restart{
+    width: 25%;
+    top: -24%; 
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+}
+#zone{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: 	rgb(22, 22, 22);
+    position: absolute;
+    width: 40vw;
+    height: 20vw;
+    border: 0.1vw solid white;
+}
+#vos{
+    top:60%; 
+    left: 5%;
+    position: absolute;
+    font-size: 70%;
+    width:33%;
+}
+#maquina{
+    font-size: 70%;
+    width: 52%;
+    top:60%;
+    left: 44%;
+    position: absolute;
+}
+#question{
+    color: white; 
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.cube{
+    background-color: transparent;
+}
+#rayita{
+    position: absolute;
+    background-color: black;
+    width: 95.08229184355109%;
+    height: 7%;
+    left:50%;
+    top:50%;
+    margin-top: -3.5%;
+    margin-left: -47.54114592177555%;
+    z-index: 1;
+    transform:rotate(0deg);
+    display: none;
+}
+#winnerNotice{
+    
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-color: transparent;
+    width: 42%;
+    height: 42%;
+    left:50%;
+    top:50%;
+    margin-top: -21%;
+    margin-left: -21%;
+    z-index: 3;
+    transform:rotate(0deg);
+    display: none;}

@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>index</title>
+    <link rel="stylesheet" type="text/css" media="screen and (max-aspect-ratio: 1/1)" href="css/styleVW.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-aspect-ratio: 1/1)" href="css/styleVH.css">
+</head>
+
+<body onmousedown='return false' onselectstart='return false'>
+    <p id= "probabilidad">
+    ============================================ <br>
+    >>PROBABILIDAD DE QUE GANE EL SuperPlayer 0%<br>
+    ============================================
+    </p>
+    <div id="board" class="board">
+        <button id="button" onclick="back();">BACK</button>
+        <button id="restart" onclick="restart();">RESTART</button>
+        <div id="zone" class="zone">
+            <p id="question">QUIEN ARRANCA?</p>
+            <button id="vos" onclick="start(1)">Human</button>
+            <button id="maquina" onclick="start(0)">SuperPlayer</button>
+            <button id="HvsH" onclick="start(2)">HUMANO vs HUMANO</button>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="js\jquery.js"></script>
+<script type="text/javascript" src="js\superPlayer.js"></script>
+<script type="text/javascript" src="js\script.js"></script>
+<script type="text/javascript" src="js\monteCarlo.js"></script>
+</html>
